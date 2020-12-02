@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Importing the dataset
 
-dataset = pd.read_csv('/Users/Alien/Desktop/Projetos Python/Classification in Python ( Data Science )/Assets/Social_Network_Ads.csv')
+dataset = pd.read_csv('Assets/Social_Network_Ads.csv')
 
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
